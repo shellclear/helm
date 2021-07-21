@@ -2,7 +2,6 @@ name: hello-world-sb
 
 springboot:
   replicaCount: 1
-  port: 8080
 
 image:
   repository: quay.io/ppacific/spring-boot-hello-world
@@ -10,7 +9,6 @@ image:
   pullPolicy: IfNotPresent
 
 service:
-  type: ClusterIP
   port: 8080
   targetPort: 8080
 
