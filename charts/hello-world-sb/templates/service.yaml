@@ -7,9 +7,11 @@ metadata:
     {{- include "hello-world-sb.commonLabels" . | nindent 4 }}
 spec:
   ports:
-  - name: {{ .Values.name }}
-    port: {{ .Values.service.port }}
-    targetPort: {{ .Values.service.targetPort }}
+  {{- range $index, $value := .Values.service }}
+  - name: {{ $value.name }}
+    port: {{ $value.port }}
+    targetPort: {{ $value.targetPort }}
+  {{- end }}
   selector:
     app_name: {{ .Values.name }}
     deploymentconfig: {{ .Values.name }}

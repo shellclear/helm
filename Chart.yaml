@@ -16,5 +16,5 @@ maintainers:
 dependencies:
 - name: hello-world-sb
   repository: "file://./charts/hello-world-sb"
-  version: 0.1.0
+  version: 0.1.1
   condition: hello-world-sb
