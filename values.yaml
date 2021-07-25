@@ -2,7 +2,7 @@ hello-world-sb:
   name: hello-world-sb
   
   springboot:
-    replicaCount: 2
+    replicaCount: 5
   
   image:
     repository: quay.io/ppacific/spring-boot-hello-world
