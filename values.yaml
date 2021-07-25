@@ -2,7 +2,7 @@ hello-world-sb:
   name: hello-world-sb
   
   springboot:
-    replicaCount: 2
+    replicaCount: 5
   
   image:
     repository: quay.io/ppacific/spring-boot-hello-world
@@ -17,5 +17,7 @@ hello-world-sb:
       port: 8081
       targetPort: 8081
   
-  env: []
+  env:
+    - name: APP_NAME
+      values: HELLO-WORLD-SB
   
