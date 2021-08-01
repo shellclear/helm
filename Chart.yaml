@@ -15,6 +15,6 @@ maintainers:
   email: shellclear@redhat.com
 dependencies:
 - name: hello-world-sb
-  repository: "http://192.168.0.18:8081/repository/helm/"
+  repository: "file://./charts/hello-world-sb/"
   version: 0.1.1
   condition: hello-world-sb
