@@ -4,15 +4,15 @@ description: A Helm chart to deploy microservices.
 type: application
 version: 0.1.0
 appVersion: 1.0.0
-home: https://github.com/ppacific/helm-umbrella
+home: https://github.com/shellclear/helm-umbrella
 sources:
-- https://github.com/ppacific/helm-umbrella
+- https://github.com/shellclear/helm-umbrella
 icon:
 keywords:
 - umbrella
 maintainers:
 - name: Paulo Pacifico
-  email: ppacific@redhat.com
+  email: shellclear@redhat.com
 dependencies:
 - name: hello-world-sb
   repository: "http://192.168.0.18:8081/repository/helm/"

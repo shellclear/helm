@@ -3,15 +3,15 @@ kind: Service
 metadata:
   name: {{ .Values.name }}
   labels:
-    {{- include "hello-world-sb.labels" . | nindent 4 }}
-    {{- include "hello-world-sb.commonLabels" . | nindent 4 }}
+{{- include "hello-world-sb.labels" . | nindent 4 }}
+{{- include "hello-world-sb.commonLabels" . | nindent 4 }}
 spec:
   ports:
-  {{- range $index, $value := .Values.service }}
+{{- range $index, $value := .Values.service }}
   - name: {{ $value.name }}
     port: {{ $value.port }}
     targetPort: {{ $value.targetPort }}
-  {{- end }}
+{{- end }}
   selector:
     app_name: {{ .Values.name }}
     deploymentconfig: {{ .Values.name }}

@@ -1,11 +1,10 @@
-{{- /* 
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: {{ $.Values.name }}
   labels:
-   {{- include "hello-world-sb.labels" . | nindent 4 }}
-   {{- include "hello-world-sb.commonLabels" . | nindent 4 }}
+{{- include "hello-world-sb.labels" . | nindent 4 }}
+{{- include "hello-world-sb.commonLabels" . | nindent 4 }}
 spec:
   host: {{ $.Values.routes.host }}
   path: {{ $.Values.routes.path}}
@@ -13,8 +12,7 @@ spec:
     name: {{ .Values.name }}
     kind: Service
     weight: 100
-  {{- if .Values.routes.https }}
+{{- if .Values.routes.https }}
   tls:
     termination: edge
-  {{- end }}
-*/ -}}
+{{- end }}

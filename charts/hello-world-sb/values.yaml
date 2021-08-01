@@ -12,13 +12,10 @@ service:
   - name: 8080-tcp
     port: 8080
     targetPort: 8080
-  - name: 8081-tcp
-    port: 8081
-    targetPort: 8081
 
 env: []
 
-#routes:
+routes: {}
 #  name: hello-world-sb
 #  host: hello-world-sb.apps-crc.testing
 #  path: /hello
