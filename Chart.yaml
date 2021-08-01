@@ -4,9 +4,9 @@ description: A Helm chart to deploy microservices.
 type: application
 version: 0.1.0
 appVersion: 1.0.0
-home: https://github.com/ppacific/helm-umbrella
+home: https://github.com/shellclear/helm-chart-umbrella-springboot
 sources:
-- https://github.com/ppacific/helm-umbrella
+- https://github.com/shellclear/helm-chart-umbrella-springboot
 icon:
 keywords:
 - umbrella
