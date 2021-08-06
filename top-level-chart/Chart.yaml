@@ -15,7 +15,6 @@ maintainers:
     email: shellclear@gmail.com
 dependencies:
   - name: sb-hello-world
-    repository: "https://github.com/shellclear/helm/tree/main/helm-packages"
+    repository: "https://shellclear.github.io/helm"
     version: 0.1.0
-    condition: sb-hello-world.enabled
     alias: sb-hello-world
