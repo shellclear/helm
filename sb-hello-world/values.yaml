@@ -10,8 +10,8 @@ service:
   port: 8080
   targetPort: 8080
 
-routes:
-  name: hello-world-sb
-  host: hello-world-sb.apps-crc.testing
-  path: /hello
-  https: true
+#routes:
+#  name: hello-world-sb
+#  host: hello-world-sb.apps-crc.testing
+#  path: /hello
+#  https: true
