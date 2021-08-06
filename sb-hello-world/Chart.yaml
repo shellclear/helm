@@ -1,0 +1,18 @@
+apiVersion: v2
+name: sb-hello-world
+description: A Helm chart to deploy a Java hello-world application using Spring Boot.
+type: application
+version: 0.1.0
+appVersion: 1.0.0
+home: https://github.com/shellclear/helm/sb-hello-world
+sources:
+  - https://github.com/shellclear/helm/sb-hello-world
+icon:
+keywords:
+  - springboot
+  - java
+  - sb-hello-world
+maintainers:
+  - name: Paulo Pacifico
+    email: shellclear@gmail.com
+
