@@ -8,8 +8,12 @@ metadata:
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
-    app_name: {{ .Values.name }}
+    matchLabels:
+      app_name: {{ .Values.name }}
   template:
+    metadata:
+      labels:
+        app_name: {{ .Values.name }}
     spec:
       containers:
       - name: {{ .Values.name }}
