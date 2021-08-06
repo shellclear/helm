@@ -12,8 +12,3 @@ spec:
     targetPort: {{ .Values.service.targetPort }}
   selector:
     app_name: {{ .Values.name }}
-<<<<<<< HEAD:sb-hello-world/templates/service.yaml
- 
-=======
- 
->>>>>>> 5eb4f865607cc4fb9226a1dba731101519197dcd:charts/hello-world-sb/templates/service.yaml
