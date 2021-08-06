@@ -1,7 +1,11 @@
 {{/*
 Expand the name of the chart.
 */}}
+<<<<<<< HEAD
 {{- define "sb-hello-world.name" }}
+=======
+{{- define "sb-hello-world.name" -}}
+>>>>>>> 5eb4f865607cc4fb9226a1dba731101519197dcd
 {{- default .Chart.Name | trunc 63 | trimSuffix "-" }}
 {{- end }}
 
@@ -9,13 +13,21 @@ Expand the name of the chart.
 Create chart name and version as used by the Helm chart label.
 */}}
 {{- define "sb-hello-world.chart" -}}
+<<<<<<< HEAD
 {{ printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" }}
+=======
+{{- printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" }}
+>>>>>>> 5eb4f865607cc4fb9226a1dba731101519197dcd
 {{- end }}
 
 {{/*
 Helm Labels
 */}}
+<<<<<<< HEAD
 {{- define "sb-hello-world.labels" }}
+=======
+{{- define "sb-hello-world.labels" -}}
+>>>>>>> 5eb4f865607cc4fb9226a1dba731101519197dcd
 generator: "helm"
 helm.sh/chart: {{ include "sb-hello-world.chart" . }}
 helm.sh/release: "{{ .Release.Name }}"
@@ -31,7 +43,11 @@ app.kubernetes.io/managed-by: {{ .Release.Service }}
 {{/*
 Common Labels
 */}}
+<<<<<<< HEAD
 {{- define "sb-hello-world.commonLabels" }}
+=======
+{{- define "sb-hello-world.commonLabels" -}}
+>>>>>>> 5eb4f865607cc4fb9226a1dba731101519197dcd
 app_name: {{ .Values.name }}
 {{- end }}
 

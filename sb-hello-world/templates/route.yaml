@@ -15,4 +15,7 @@ spec:
   tls:
     termination: edge
 {{- end }}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5eb4f865607cc4fb9226a1dba731101519197dcd
