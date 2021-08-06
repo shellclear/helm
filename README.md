@@ -12,7 +12,7 @@ helm repo update
 
 ## Helm Charts
 
-* [sb-hello-world](https://shellclear.github.io/helm/sb-hello-world)
+* [sb-hello-world](https://github.com/shellclear/helm/tree/main/sb-hello-world)
 
 ```
 helm install my-release shellclear/sb-hello-world
