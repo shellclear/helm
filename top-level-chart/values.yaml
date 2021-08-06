@@ -1,0 +1,8 @@
+hello-world:
+  name: sb-hello-world
+  
+  replicaCount: 1
+  
+  env:
+    - name: APP_NAME
+      values: SB-HELLO-WORLD

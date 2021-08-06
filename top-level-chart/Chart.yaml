@@ -1,0 +1,21 @@
+apiVersion: v2
+name: top-level-chart
+description: A Helm chart to deploy microservices.
+type: application
+version: 0.1.0
+appVersion: 1.0.0
+home: https://github.com/shellclear/helm/top-level-chart
+sources:
+  - https://github.com/shellclear/helm/top-level-chart
+icon:
+keywords:
+  - top-level-chart
+maintainers:
+  - name: Paulo Pacifico
+    email: shellclear@gmail.com
+dependencies:
+  - name: sb-hello-world
+    repository: "file://../sb-hello-world/"
+    version: 0.1.0
+    condition: sb-hello-world.enabled
+    alias: sb-hello-world
