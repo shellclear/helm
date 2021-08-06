@@ -3,8 +3,8 @@ kind: Service
 metadata:
   name: {{ .Values.name }}
   labels:
-    {{- include "hello-world-sb.labels" . | nindent 4 }}
-    {{- include "hello-world-sb.commonLabels" . | nindent 4 }}
+{{- include "sb-hello-world.labels" . | indent 4 }}
+{{- include "sb-hello-world.commonLabels" . | indent 4 }}
 spec:
   ports:
   - name: {{ .Values.name }}
@@ -12,4 +12,4 @@ spec:
     targetPort: {{ .Values.service.targetPort }}
   selector:
     app_name: {{ .Values.name }}
-    deploymentconfig: {{ .Values.name }}
+ 

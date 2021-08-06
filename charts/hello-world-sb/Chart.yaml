@@ -1,7 +1,0 @@
-apiVersion: v2
-name: hello-world-sb
-version: 0.1.0
-description: A Helm chart for deploying hello-world Spring Boot microservice.
-type: application
-home: https://github.com/ppacific/helm-umbrella
-appVersion: 1.0.0

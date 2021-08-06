@@ -1,0 +1,19 @@
+name: "sb-hello-world"
+
+replicaCount: 1
+
+image:
+  repository: quay.io/ppacific/spring-boot-hello-world
+  version: latest
+
+service:
+  port: 8080
+  targetPort: 8080
+
+# Only used in OCP clusters.
+# 
+#routes:
+#  name: hello-world-sb
+#  host: hello-world-sb.apps-crc.testing
+#  path: /hello
+#  https: true
