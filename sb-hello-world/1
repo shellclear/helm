@@ -10,6 +10,8 @@ service:
   port: 8080
   targetPort: 8080
 
+# Only used in OCP clusters.
+# 
 routes:
   name: hello-world-sb
   host: hello-world-sb.apps-crc.testing
