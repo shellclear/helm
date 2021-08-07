@@ -11,6 +11,10 @@ This repository stores the Helm charts used to deploy sample applications in Kub
 
 > **NOTE**: _I'm using the GitHub Pages as a Helm repository and you'll find all the instructions to install the packages here -> https://shellclear.github.io/helm/_
 
+![GH-Pages UI](docs/assets/gh-pages.png)
+
+GitOPS - ArgoCD
+
 ![Argo CD UI](docs/assets/argocd.png)
 
 
