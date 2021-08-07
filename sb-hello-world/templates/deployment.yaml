@@ -43,17 +43,17 @@ spec:
           failureThreshold: {{ .Values.livenessProbe.failureThreshold }}
 {{- end }}
 {{- if .Values.readinessProbe.enabled }}
-          readinessProbe:
-            exec:
-              command:
-                - sh
-                - '-c'
-                - curl localhost:8080/hello
-            initialDelaySeconds: {{ .Values.readinessProbe.initialDelaySeconds }}
-            periodSeconds: {{ .Values.readinessProbe.periodSeconds }}
-            timeoutSeconds: {{ .Values.readinessProbe.timeoutSeconds }}
-            successThreshold: {{ .Values.readinessProbe.successThreshold }}
-            failureThreshold: {{ .Values.readinessProbe.failureThreshold }}
+        readinessProbe:
+          exec:
+            command:
+              - sh
+              - '-c'
+              - curl localhost:8080/hello
+          initialDelaySeconds: {{ .Values.readinessProbe.initialDelaySeconds }}
+          periodSeconds: {{ .Values.readinessProbe.periodSeconds }}
+          timeoutSeconds: {{ .Values.readinessProbe.timeoutSeconds }}
+          successThreshold: {{ .Values.readinessProbe.successThreshold }}
+          failureThreshold: {{ .Values.readinessProbe.failureThreshold }}
 {{- end }}
 {{- if .Values.resources }}
         resources:
