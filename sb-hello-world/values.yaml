@@ -85,3 +85,21 @@ envs:
   - name: "APP_PORT"
     value: "8080"
 
+#####################################################################
+# Secret                                                            #
+# ref: https://kubernetes.io/es/docs/concepts/configuration/secret/ #
+#####################################################################
+secret:
+  dbCredentials:
+    dbName: "db"
+    password: 
+    user: 
+
+########################################################################
+# ConfigMap                                                            #
+# ref: https://kubernetes.io/es/docs/concepts/configuration/configmap/ #
+########################################################################
+config:
+  readme: |-
+    This is just a text saved in a configmap object. ;)
+
