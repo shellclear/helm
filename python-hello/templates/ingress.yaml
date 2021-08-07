@@ -9,7 +9,7 @@ spec:
   - host: {{ .Values.name }}.localdomain
     http:
       paths:
-      - path: /hello
+      - path: 
         backend:
           serviceName: {{ .Values.name }}
           servicePort: 8080

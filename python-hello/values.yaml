@@ -1,0 +1,87 @@
+#####################
+# Microservice name #
+#####################
+name: "python-hello"
+
+################
+# Pod replicas #
+################
+replicaCount: 1
+
+######################################################################
+# Image                                                              #
+# ref: https://quay.io/repository/shellclear/spring-boot-hello-world #
+######################################################################
+image:
+  registry: "quay.io/shellclear"
+  repository: "python-hello"
+  tag: "1.0"
+
+##################################################################################
+# Labels                                                                         #
+# ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ #
+##################################################################################
+labels:
+  appversion: "1.0.0"
+
+#######################################################################################
+# Annotations                                                                         #
+# ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ #
+#######################################################################################
+annotations:
+  author: "shellclear@gmail.com"
+
+###############################################################
+# Configure master resource requests and limits               #
+# ref: http://kubernetes.io/docs/user-guide/compute-resources #
+###############################################################
+resources:
+  requests:
+    memory: "64Mi"
+    cpu: "250m"
+  limits:
+    memory: "128Mi"
+    cpu: "500m"
+
+##############################################################################################################
+# Monitoring Application Health                                                                              #
+# ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/ #
+##############################################################################################################
+livenessProbe:
+  enabled: true
+  # Initializing the application could take some time
+  initialDelaySeconds: 120
+  # Default Kubernetes values
+  periodSeconds: 10
+  timeoutSeconds: 1
+  successThreshold: 1
+  failureThreshold: 3
+readinessProbe:
+  enabled: true
+  initialDelaySeconds: 30
+  # Default Kubernetes values
+  periodSeconds: 10
+  timeoutSeconds: 1
+  successThreshold: 1
+  failureThreshold: 3
+
+#########################################################################
+# Service                                                               #
+# ref: https://kubernetes.io/docs/concepts/services-networking/service/ #
+#########################################################################
+service:             
+  port: 8080         
+  targetPort: 8080
+
+########################################################################################################
+# Environment veriable                                                                                 #
+# ref: https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/ #
+########################################################################################################
+envs:
+  - name: "APP_VERSION"
+    value: "1.0.0"
+  - name: "APP_NAME"
+    value: "PYTHON-HELLO"
+  - name: "APP_PORT"
+    value: "8080"
+

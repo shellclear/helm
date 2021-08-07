@@ -1,0 +1,17 @@
+apiVersion: v2
+name: python-hello
+description: A Helm chart to deploy a Python hello-world application.
+type: application
+version: 0.1.0
+appVersion: 1.0.0
+home: https://github.com/shellclear/helm/tree/main/python-hello
+sources:
+  - https://github.com/shellclear/helm/tree/main/python-hello
+icon:
+keywords:
+  - python
+  - hello
+maintainers:
+  - name: Paulo Pacifico
+    email: shellclear@gmail.com
+
