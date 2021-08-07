@@ -1,5 +1,5 @@
 hello-world:
   name: sb-hello-world
   
-  replicaCount: 1
+  replicaCount: 5
   
