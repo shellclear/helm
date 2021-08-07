@@ -3,9 +3,9 @@ entries:
   python-hello:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T16:07:24.233137974+02:00"
+    created: "2021-08-07T16:21:35.290381632+02:00"
     description: A Helm chart to deploy a Python hello-world application.
-    digest: 53befe1b5f397db3bc69b306eb7735cf60079cff3937b283e364f5137ebdfbeb
+    digest: e6a98330c21f8bbcd41c598acd9c7d3c64cbf03a0988f406e68d61e7ef9150b0
     home: https://github.com/shellclear/helm/tree/main/python-hello
     keywords:
     - python
@@ -23,10 +23,10 @@ entries:
   sb-hello-world:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T16:07:24.233893165+02:00"
+    created: "2021-08-07T16:21:35.291196137+02:00"
     description: A Helm chart to deploy a Java hello-world application using Spring
       Boot.
-    digest: 0092b188e30f15b5943517479f30f13f9f143dd642eb1635435da1628b7653b8
+    digest: f2bcd4f1bb7334b5a86973884da12b8e33df59c7ed961a040ab7c905787459c3
     home: https://github.com/shellclear/helm/tree/main/sb-hello-world
     keywords:
     - springboot
@@ -42,5 +42,5 @@ entries:
     urls:
     - https://github.com/shellclear/helm/raw/main/helm-packages/sb-hello-world-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-07T16:07:24.2320872+02:00"
+generated: "2021-08-07T16:21:35.288391067+02:00"
 
