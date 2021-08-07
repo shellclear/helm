@@ -35,7 +35,7 @@ spec:
             command:
               - sh
               - '-c'
-              - curl localhost:8080/hello
+              - wget --spider localhost:8080/hello
           initialDelaySeconds: {{ .Values.livenessProbe.initialDelaySeconds }}
           periodSeconds: {{ .Values.livenessProbe.periodSeconds }}
           timeoutSeconds: {{ .Values.livenessProbe.timeoutSeconds }}
@@ -48,7 +48,7 @@ spec:
             command:
               - sh
               - '-c'
-              - curl localhost:8080/hello
+              - wget --spider localhost:8080/hello
           initialDelaySeconds: {{ .Values.readinessProbe.initialDelaySeconds }}
           periodSeconds: {{ .Values.readinessProbe.periodSeconds }}
           timeoutSeconds: {{ .Values.readinessProbe.timeoutSeconds }}
