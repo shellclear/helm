@@ -13,6 +13,8 @@ This repository stores the Helm charts used to deploy sample applications in Kub
 
 *GitOps - ArgoCD*
 
+Use the _top-level-chart_ folder to deploy applications using ArgoCD.
+
 ![Argo CD UI](docs/assets/argocd.png)
 
 Ref:
