@@ -3,10 +3,10 @@ entries:
   sb-hello-world:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T12:47:16.656294619+02:00"
+    created: "2021-08-07T12:54:35.868625404+02:00"
     description: A Helm chart to deploy a Java hello-world application using Spring
       Boot.
-    digest: af4aa45a2d3b663a65840fe29ae59812856a0b24b3be0fc401106a00a7860c40
+    digest: 0325f78a9290fc4fdb6a7ff0e985aac8fd2b9a485cd1e8d536368dd70f0a11fc
     home: https://github.com/shellclear/helm/tree/main/sb-hello-world
     keywords:
     - springboot
@@ -22,4 +22,5 @@ entries:
     urls:
     - https://github.com/shellclear/helm/raw/main/helm-packages/sb-hello-world-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-07T12:47:16.655755011+02:00"
+generated: "2021-08-07T12:54:35.867798203+02:00"
+
