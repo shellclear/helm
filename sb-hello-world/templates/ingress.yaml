@@ -10,6 +10,7 @@ spec:
     http:
       paths:
       - path: /hello
+        pathType: Prefix
         backend:
           service:
             name: {{ .Values.name }}
