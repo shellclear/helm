@@ -1,5 +1,10 @@
-hello-world:
-  name: sb-hello-world
+java-hello:
+  name: java-hello
   
-  replicaCount: 5
+  replicaCount: 2
+
+python-hello:
+  name: python-hello
+
+  replicaCount: 2
   
