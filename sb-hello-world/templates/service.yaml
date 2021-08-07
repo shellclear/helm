@@ -5,6 +5,13 @@ metadata:
   labels:
 {{- include "sb-hello-world.labels" . | indent 4 }}
 {{- include "sb-hello-world.commonLabels" . | indent 4 }}
+{{- if .Values.labels }}
+{{ toYaml .Values.labels | indent 4 }}
+{{- end }}
+{{- if .Values.annotations }}
+  annotations:
+{{ toYaml .Values.annotations | indent 4 }}
+{{- end }}
 spec:
   ports:
   - name: {{ .Values.name }}

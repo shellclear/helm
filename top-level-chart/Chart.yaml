@@ -17,4 +17,4 @@ dependencies:
   - name: sb-hello-world
     repository: "https://shellclear.github.io/helm"
     version: 0.1.0
-    alias: sb-hello-world
+    alias: hello-world
