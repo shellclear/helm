@@ -1,12 +1,34 @@
 apiVersion: v1
 entries:
+  java-hello-world:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-01-30T05:32:58.527640515+01:00"
+    description: A Helm chart to deploy a Java hello-world application using Spring
+      Boot.
+    digest: 035b72277e96b8d3825da074a44601e401beea56ebe2b62d3ee52dad5e439cc9
+    home: https://github.com/shellclear/helm/java-hello-world
+    keywords:
+    - springboot
+    - java
+    - java-hello-world
+    maintainers:
+    - email: shellclear@gmail.com
+      name: Paulo Pacifico
+    name: java-hello-world
+    sources:
+    - https://github.com/shellclear/helm/java-hello-world
+    type: application
+    urls:
+    - https://github.com/shellclear/helm/helm-packages/java-hello-world-0.1.0.tgz
+    version: 0.1.0
   python-hello:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T22:39:11.810546872+02:00"
+    created: "2022-01-30T05:32:58.52845916+01:00"
     description: A Helm chart to deploy a Python hello-world application.
-    digest: 36278b9d50832fc92e59b97564f579cdc4c7fa5e354ff2f204e044630554684d
-    home: https://github.com/shellclear/helm/tree/main/python-hello
+    digest: d0467c6ce7ad04b512c9703d633c158f96f15bba27c66e68353e9dbc597802cd
+    home: https://github.com/shellclear/helm/python-hello
     keywords:
     - python
     - hello
@@ -15,32 +37,9 @@ entries:
       name: Paulo Pacifico
     name: python-hello
     sources:
-    - https://github.com/shellclear/helm/tree/main/python-hello
+    - https://github.com/shellclear/helm/python-hello
     type: application
     urls:
-    - https://github.com/shellclear/helm/raw/main/helm-packages/python-hello-0.1.0.tgz
+    - https://github.com/shellclear/helm/helm-packages/python-hello-0.1.0.tgz
     version: 0.1.0
-  sb-hello-world:
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2021-08-07T22:39:11.811508936+02:00"
-    description: A Helm chart to deploy a Java hello-world application using Spring
-      Boot.
-    digest: e43d659fadbaabf6460f8a7bdf700c001dcae2a474d86ddab9d3253aa7e9ff1a
-    home: https://github.com/shellclear/helm/tree/main/sb-hello-world
-    keywords:
-    - springboot
-    - java
-    - sb-hello-world
-    maintainers:
-    - email: shellclear@gmail.com
-      name: Paulo Pacifico
-    name: sb-hello-world
-    sources:
-    - https://github.com/shellclear/helm/tree/main/sb-hello-world
-    type: application
-    urls:
-    - https://github.com/shellclear/helm/raw/main/helm-packages/sb-hello-world-0.1.0.tgz
-    version: 0.1.0
-generated: "2021-08-07T22:39:11.8087111+02:00"
-
+generated: "2022-01-30T05:32:58.525851983+01:00"
