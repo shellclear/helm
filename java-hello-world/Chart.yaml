@@ -4,9 +4,9 @@ description: A Helm chart to deploy a Java hello-world application using Spring 
 type: application
 version: 0.1.0
 appVersion: 1.0.0
-home: https://github.com/shellclear/helm/tree/main/java-hello-world
+home: https://github.com/shellclear/helm/java-hello-world
 sources:
-  - https://github.com/shellclear/helm/tree/main/java-hello-world
+  - https://github.com/shellclear/helm/java-hello-world
 keywords:
   - springboot
   - java
