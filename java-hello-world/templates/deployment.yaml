@@ -3,8 +3,8 @@ kind: Deployment
 metadata:
   name: {{ .Values.name }}
   labels:
-{{- include "sb-hello-world.labels" . | indent 4 }}
-{{- include "sb-hello-world.commonLabels" . | indent 4 }}
+{{- include "java-hello-world.labels" . | indent 4 }}
+{{- include "java-hello-world.commonLabels" . | indent 4 }}
 {{- if .Values.labels }}
 {{ toYaml .Values.labels | indent 4 }}
 {{- end }}
@@ -35,7 +35,7 @@ spec:
             command:
               - sh
               - '-c'
-              - wget --spider localhost:8080/hello
+              - curl -LI localhost:8080/hello
           initialDelaySeconds: {{ .Values.livenessProbe.initialDelaySeconds }}
           periodSeconds: {{ .Values.livenessProbe.periodSeconds }}
           timeoutSeconds: {{ .Values.livenessProbe.timeoutSeconds }}
@@ -48,7 +48,7 @@ spec:
             command:
               - sh
               - '-c'
-              - wget --spider localhost:8080/hello
+              - curl -LI localhost:8080/hello
           initialDelaySeconds: {{ .Values.readinessProbe.initialDelaySeconds }}
           periodSeconds: {{ .Values.readinessProbe.periodSeconds }}
           timeoutSeconds: {{ .Values.readinessProbe.timeoutSeconds }}
