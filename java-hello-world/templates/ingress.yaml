@@ -5,6 +5,7 @@ metadata:
   name: route-{{ .Values.name }}
 spec:
   host: {{ .Values.name }}.localdomain
+  path: /hello
   port:
     targetPort: 8080
   to:
