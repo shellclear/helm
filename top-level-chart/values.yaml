@@ -1,10 +1,8 @@
 java-hello:
-  name: java-hello
-  
+  name: java-hello-world
   replicaCount: 2
 
 python-hello:
   name: python-hello
-
   replicaCount: 2
   
