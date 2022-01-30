@@ -1,21 +1,21 @@
 #####################
 # Microservice name #
 #####################
-name: "sb-hello-world"
+name: "java-hello-world"
 
 ################
 # Pod replicas #
 ################
 replicaCount: 1
 
-######################################################################
-# Image                                                              #
-# ref: https://quay.io/repository/shellclear/spring-boot-hello-world #
-######################################################################
+################################################################
+# Image                                                        #
+# ref: https://quay.io/repository/shellclear/java-hello-world  #
+################################################################
 image:
   registry: "quay.io/shellclear"
-  repository: "spring-boot-hello-world"
-  tag: "latest"
+  repository: "java-hello-world"
+  tag: "1.0"
 
 ##################################################################################
 # Labels                                                                         #
@@ -102,4 +102,3 @@ secret:
 config:
   readme: |-
     This is just a text saved in a configmap object. ;)
-

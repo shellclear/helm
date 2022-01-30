@@ -3,8 +3,8 @@ kind: Service
 metadata:
   name: {{ .Values.name }}
   labels:
-{{- include "sb-hello-world.labels" . | indent 4 }}
-{{- include "sb-hello-world.commonLabels" . | indent 4 }}
+{{- include "java-hello-world.labels" . | indent 4 }}
+{{- include "java-hello-world.commonLabels" . | indent 4 }}
 {{- if .Values.labels }}
 {{ toYaml .Values.labels | indent 4 }}
 {{- end }}
