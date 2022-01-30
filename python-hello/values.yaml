@@ -8,10 +8,10 @@ name: "python-hello"
 ################
 replicaCount: 1
 
-######################################################################
-# Image                                                              #
-# ref: https://quay.io/repository/shellclear/spring-boot-hello-world #
-######################################################################
+################################################
+# Image                                        #
+# ref: https://quay.io/shellclear/python-hello #
+################################################
 image:
   registry: "quay.io/shellclear"
   repository: "python-hello"
