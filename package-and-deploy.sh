@@ -35,6 +35,7 @@ git checkout $PKGS_BRANCH
 rm -rf helm-packages/*
 cp /tmp/${JAVA_CHART_NAME}-0.1.0.tgz helm-packages/
 cp /tmp/${PYTHON_CHART_NAME}-0.1.0.tgz helm-packages/
+git add -A helm-packages/
 
 echo -e "\n[5/6] Update Helm Index"
 helm repo index . --url https://shellclear.github.io/helm/
@@ -42,7 +43,7 @@ git add index.yaml
 
 echo -e "\n[6/6] Git commit and push"
 git commit -m "Update package to the latest commit on master"
-# git push
+git push
 
 echo -e "\n[END] Return to previous state"
 git checkout $MASTER_BRANCH
