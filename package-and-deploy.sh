@@ -19,13 +19,15 @@ cd $JAVA_CHART_NAME
 helm dependencies update
 helm package .
 cp ${JAVA_CHART_NAME}-0.1.0.tgz /tmp
+rm -rf ${JAVA_CHART_NAME}-0.1.0.tgz
 cd -
 
-echo -e "\n[3/6] Package j$PYTHON_CHART_NAME"
+echo -e "\n[3/6] Package $PYTHON_CHART_NAME"
 cd $PYTHON_CHART_NAME
 helm dependencies update
 helm package .
 cp ${PYTHON_CHART_NAME}-0.1.0.tgz /tmp
+rm -rf ${PYTHON_CHART_NAME}-0.1.0.tgz
 cd -
 
 echo -e "\n[4/6] Checkout gh-pages and update package"
