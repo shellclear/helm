@@ -4,7 +4,6 @@ kind: Route
 metadata:
   name: route-{{ .Values.name }}
 spec:
-  host: {{ .Values.name }}.localdomain
   port:
     targetPort: 8080
   to:
