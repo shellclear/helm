@@ -1,5 +1,54 @@
 apiVersion: v1
 entries:
+  infinispan:
+  - annotations:
+      charts.openshift.io/certifiedOpenShiftVersions: N/A
+      charts.openshift.io/digest: sha256:8e03aa2f451e691a0ebeac17ff737136485879273492a0602577aeefcfec6959
+      charts.openshift.io/lastCertifiedTimestamp: '2021-09-07T11:52:25.72654+00:00'
+      charts.openshift.io/provider: Infinispan
+      charts.openshift.io/providerType: community
+      charts.openshift.io/submissionTimestamp: '2021-09-07T11:53:37.020008+00:00'
+    apiVersion: v2
+    appVersion: '12.1'
+    description: A Helm chart that lets you build and deploy Infinispan clusters.
+    digest: 9f0309866c50b355999ce78e28b340777dab795764495e4b52030acabbdae49b
+    home: https://infinispan.org/
+    icon: https://design.jboss.org/infinispan/logo/final/PNG/infinispan_icon_rgb_lightbluewhite_256px.png
+    maintainers:
+    - name: Infinispan
+      url: https://infinispan.org/
+    name: infinispan
+    sources:
+    - https://github.com/infinispan/infinispan
+    - https://github.com/infinispan/infinispan-helm-charts
+    type: application
+    urls:
+    - https://github.com/openshift-helm-charts/charts/releases/download/infinispan-infinispan-0.1.0/infinispan-infinispan-0.1.0.tgz
+    version: 0.1.0
+  - annotations:
+      charts.openshift.io/certifiedOpenShiftVersions: N/A
+      charts.openshift.io/digest: sha256:aca4e4e0781863ba07dae80c5e4c3a7f8afa7114f2fcdd4247e950c6cae46e85
+      charts.openshift.io/lastCertifiedTimestamp: '2021-10-21T14:41:46.644204+00:00'
+      charts.openshift.io/provider: Infinispan
+      charts.openshift.io/providerType: community
+      charts.openshift.io/submissionTimestamp: '2021-10-21T14:42:27.172842+00:00'
+    apiVersion: v2
+    appVersion: '13.0'
+    description: A Helm chart that lets you build and deploy Infinispan clusters.
+    digest: 80f090e462e893cb87bcfaf12b75cd99a96e151345e50a762c5dbf2c2249d648
+    home: https://infinispan.org/
+    icon: https://design.jboss.org/infinispan/logo/final/PNG/infinispan_icon_rgb_lightbluewhite_256px.png
+    maintainers:
+    - name: Infinispan
+      url: https://infinispan.org/
+    name: infinispan
+    sources:
+    - https://github.com/infinispan/infinispan
+    - https://github.com/infinispan/infinispan-helm-charts
+    type: application
+    urls:
+    - https://github.com/openshift-helm-charts/charts/releases/download/infinispan-infinispan-0.2.0/infinispan-infinispan-0.2.0.tgz
+    version: 0.2.0
   java-hello-world:
   - apiVersion: v2
     appVersion: 1.0.0
