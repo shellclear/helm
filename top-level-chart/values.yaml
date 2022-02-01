@@ -1,8 +1,16 @@
 java-hello:
+  enabled: true
   name: java-hello-world
   replicaCount: 2
 
 python-hello:
+  enabled: true
   name: python-hello
   replicaCount: 2
+
+infinispan:
+  enabled: true
+  deploy:
+    nameOverride: "infinispan-server"
+    replicas: 2
   
