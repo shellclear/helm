@@ -4,7 +4,7 @@ description: A Helm chart to deploy a Python hello-world application.
 type: application
 version: 0.1.0
 appVersion: 1.0.0
-home: https://github.com/shellclear/helm/python-hello
+home: https://shellclear.github.io/helm
 sources:
   - https://github.com/shellclear/helm/python-hello
 icon: https://www.python.org/static/img/python-logo-large.c36dccadd999.png?1576869008
