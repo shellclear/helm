@@ -16,6 +16,14 @@ Use the _top-level-chart_ folder to deploy applications using ArgoCD.
 
 ![Argo CD UI](docs/assets/argocd.png)
 
+
+## How to use
+
+```bash
+$ cd top-level-chart
+$ helm dep up && helm template . --validate | oc apply -f -
+```
+
 Ref:
 
 - https://minikube.sigs.k8s.io/docs/
