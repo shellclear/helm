@@ -35,3 +35,10 @@ Common Labels
 app_name: {{ .Values.name }}
 {{- end }}
 
+{{/*
+Helm Annotations
+*/}}
+{{- define "python-hello.annotations" }}
+meta.helm.sh/release-name: "{{ .Release.Name }}"
+meta.helm.sh/release-namespace: "{{ .Release.Namespace }}"
+{{- end }}
