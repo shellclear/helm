@@ -7,6 +7,7 @@ appVersion: 1.0.0
 home: https://github.com/shellclear/helm/java-hello-world
 sources:
   - https://github.com/shellclear/helm/java-hello-world
+icon: https://spring.io/images/spring-initializr-4291cc0115eb104348717b82161a81de.svg
 keywords:
   - springboot
   - java
