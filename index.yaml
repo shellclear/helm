@@ -54,11 +54,12 @@ entries:
   java-hello-world:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-02-02T13:50:19.2396112+01:00"
+    created: "2022-02-02T14:02:28.6376075+01:00"
     description: A Helm chart to deploy a Java hello-world application using Spring
       Boot.
-    digest: add5ac143235abc9fda38f05117a0f45e70e0a0616e279eea3405273e5de585a
-    home: https://github.com/shellclear/helm/java-hello-world
+    digest: db32a735500d58c3f4d574708f2e743ae8b94086eca507b612782b4da98c81f1
+    home: https://shellclear.github.io/helm
+    icon: https://spring.io/images/spring-initializr-4291cc0115eb104348717b82161a81de.svg
     keywords:
     - springboot
     - java
@@ -76,10 +77,11 @@ entries:
   python-hello:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-02-02T13:50:19.240242811+01:00"
+    created: "2022-02-02T14:02:28.638170928+01:00"
     description: A Helm chart to deploy a Python hello-world application.
-    digest: 00511c138443cb5d839922e2a2f64e15d9de3155e578cd6348251e4dba356fa5
-    home: https://github.com/shellclear/helm/python-hello
+    digest: dd16babf7219118f6233e7b99252d3c1e51d1fb963b03ac3fd76ff00eb14afa3
+    home: https://shellclear.github.io/helm
+    icon: https://www.python.org/static/img/python-logo-large.c36dccadd999.png?1576869008
     keywords:
     - python
     - hello
@@ -93,4 +95,4 @@ entries:
     urls:
     - https://shellclear.github.io/helm/helm-packages/python-hello-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-02T13:50:19.238391217+01:00"
+generated: "2022-02-02T14:02:28.636887651+01:00"
