@@ -5,7 +5,7 @@ set -e
 JAVA_CHART_NAME="java-hello-world"
 PYTHON_CHART_NAME="python-hello"
 PACKAGE="${CHART_NAME}-0.1.0.tgz"
-MASTER_BRANCH="feat/new-chart-labels"
+MASTER_BRANCH="demo"
 PKGS_BRANCH="gh-pages"
 
 echo "Package and deploy: $JAVA_CHART_NAME and $PYTHON_CHART_NAME"
