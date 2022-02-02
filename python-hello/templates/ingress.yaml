@@ -3,7 +3,7 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: route-{{ .Values.name }}
-    labels:
+  labels:
 {{- include "python-hello.labels" . | indent 4 }}
 {{- include "python-hello.commonLabels" . | indent 4 }}
 {{- if .Values.labels }}
