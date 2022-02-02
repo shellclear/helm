@@ -7,6 +7,7 @@ appVersion: 1.0.0
 home: https://github.com/shellclear/helm/python-hello
 sources:
   - https://github.com/shellclear/helm/python-hello
+icon: https://www.python.org/static/img/python-logo-large.c36dccadd999.png?1576869008
 keywords:
   - python
   - hello
