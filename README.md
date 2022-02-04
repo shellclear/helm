@@ -21,7 +21,7 @@ Use the _top-level-chart_ folder to deploy applications using ArgoCD.
 
 ```bash
 $ cd top-level-chart
-$ helm dep up && helm template . --validate | oc apply -f -
+$ helm dep up && helm template --validate --release-name meetup-demo . | oc apply -f -
 ```
 
 Ref:

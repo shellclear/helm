@@ -27,10 +27,10 @@ dependencies:
     condition: python-hello.enabled
   # - name: infinispan
   #   repository: "https://charts.openshift.io"
-  #   version: 0.2.0
+  #   version: 0.2.1
   #   alias: infinispan
   - name: infinispan
     repository: "https://shellclear.github.io/helm"
-    version: 0.2.1
+    version: 0.2.2
     alias: infinispan
     condition: infinispan.enabled
