@@ -19,16 +19,18 @@ dependencies:
     repository: "https://shellclear.github.io/helm"
     version: 0.1.0
     alias: java-hello-world
+    condition: java-hello-world.enabled
   - name: python-hello
     repository: "https://shellclear.github.io/helm"
     version: 0.1.0
     alias: python-hello
+    condition: python-hello.enabled
   # - name: infinispan
   #   repository: "https://charts.openshift.io"
   #   version: 0.2.0
   #   alias: infinispan
-  # - name: infinispan
-  #   repository: "https://shellclear.github.io/helm"
-  #   version: 0.2.0
-  #   alias: infinispan
-  #   condition: infinispan.enabled
+  - name: infinispan
+    repository: "https://shellclear.github.io/helm"
+    version: 0.2.1
+    alias: infinispan
+    condition: infinispan.enabled
