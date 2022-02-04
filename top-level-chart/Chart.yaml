@@ -12,6 +12,8 @@ keywords:
 maintainers:
   - name: Paulo Pacifico
     email: shellclear@gmail.com
+  - name: Alvaro Lopez Medina
+    email: alopezme@redhat.com
 dependencies:
   - name: java-hello-world
     repository: "https://shellclear.github.io/helm"
