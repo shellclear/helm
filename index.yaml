@@ -3,7 +3,7 @@ entries:
   infinispan:
   - apiVersion: v2
     appVersion: "13.0"
-    created: "2022-02-07T00:43:12.964655153+01:00"
+    created: "2022-02-07T00:47:54.73204715+01:00"
     description: A Helm chart that lets you build and deploy Infinispan clusters.
     digest: 3e7b051b9918a02d2d25000f17202324a97ddc366304ceb1829f87f811549e01
     home: https://infinispan.org/
@@ -21,7 +21,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: "13.0"
-    created: "2022-02-07T00:43:12.963344646+01:00"
+    created: "2022-02-07T00:47:54.730596426+01:00"
     description: A Helm chart that lets you build and deploy Infinispan clusters.
     digest: c94f869d4c6d4d94bffc9d672577249e50cf3a3e306f0d6862178995f0ae0088
     home: https://infinispan.org/
@@ -90,10 +90,10 @@ entries:
   java-hello-world:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-02-07T00:43:12.965346708+01:00"
+    created: "2022-02-07T00:47:54.732697484+01:00"
     description: A Helm chart to deploy a Java hello-world application using Spring
       Boot.
-    digest: 9e82b3623104d15c7f6ea84e9fbc940403cdd4167db04a89be3090e65d6a8850
+    digest: 7795b6bd2bbbd9ca159a76d862debdde230457e84e277667c1292130a60f8c58
     home: https://shellclear.github.io/helm
     icon: https://spring.io/images/spring-initializr-4291cc0115eb104348717b82161a81de.svg
     keywords:
@@ -113,9 +113,9 @@ entries:
   python-hello:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-02-07T00:43:12.966029404+01:00"
+    created: "2022-02-07T00:47:54.733253924+01:00"
     description: A Helm chart to deploy a Python hello-world application.
-    digest: b1d990254326b6b793c5c62b0766c8d77f8f6ee090a47caba7c1de4b0aac5c2c
+    digest: 2c632696566ab402edb5b23e9b7d7dc2b53c6ece3d8f91d9119b9cd6eb423530
     home: https://shellclear.github.io/helm
     icon: https://www.python.org/static/img/python-logo-large.c36dccadd999.png?1576869008
     keywords:
@@ -131,4 +131,4 @@ entries:
     urls:
     - https://shellclear.github.io/helm/helm-packages/python-hello-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-07T00:43:12.961827307+01:00"
+generated: "2022-02-07T00:47:54.728983772+01:00"
