@@ -1,12 +1,22 @@
-java-hello:
+java-hello-world:
   enabled: true
   name: java-hello-world
   replicaCount: 2
+  # image:
+  #   id: sha256:4a7cd169339bfc76d310d79ac64408faf7072e08ad275fe26ae6c0b740c464ca
+  envs:
+    - name: "APP_VERSION"
+      value: "2.0.0"
 
 python-hello:
   enabled: true
   name: python-hello
   replicaCount: 2
+  # image:
+  #   id: sha256:ab09b8b90ef3078dc4b0b58e3da0037ca791a3179a97771098c724e7a7a88058
+  envs:
+  - name: "APP_VERSION"
+    value: "2.0.0"
 
 infinispan:
   enabled: true
