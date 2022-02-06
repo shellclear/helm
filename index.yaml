@@ -3,7 +3,7 @@ entries:
   infinispan:
   - apiVersion: v2
     appVersion: "13.0"
-    created: "2022-02-06T22:05:31.128726671+01:00"
+    created: "2022-02-06T22:16:38.702259596+01:00"
     description: A Helm chart that lets you build and deploy Infinispan clusters.
     digest: 3e7b051b9918a02d2d25000f17202324a97ddc366304ceb1829f87f811549e01
     home: https://infinispan.org/
@@ -21,7 +21,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: "13.0"
-    created: "2022-02-06T22:05:31.127560185+01:00"
+    created: "2022-02-06T22:16:38.701049977+01:00"
     description: A Helm chart that lets you build and deploy Infinispan clusters.
     digest: c94f869d4c6d4d94bffc9d672577249e50cf3a3e306f0d6862178995f0ae0088
     home: https://infinispan.org/
@@ -90,10 +90,10 @@ entries:
   java-hello-world:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-02-06T22:05:31.129403145+01:00"
+    created: "2022-02-06T22:16:38.702778728+01:00"
     description: A Helm chart to deploy a Java hello-world application using Spring
       Boot.
-    digest: 9d12a2121ec3fddbbb74954c8eee8fd48b47dc94f1238f985ae24beb90c9ac4b
+    digest: 454d94b1aa974a8abbd8a8bb7c325f90c5eb07fc5186dc1c354d8a0f506a9e35
     home: https://shellclear.github.io/helm
     icon: https://spring.io/images/spring-initializr-4291cc0115eb104348717b82161a81de.svg
     keywords:
@@ -113,9 +113,9 @@ entries:
   python-hello:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-02-06T22:05:31.130018942+01:00"
+    created: "2022-02-06T22:16:38.703274312+01:00"
     description: A Helm chart to deploy a Python hello-world application.
-    digest: b74eed11fcdb97732a4b92a15a3933cee2d09d5a94954be2c02f2595aca6e9dc
+    digest: e030cf9842a45f7fc032de55d3a81209d991063d0b1bafef0dff7068414b8e1b
     home: https://shellclear.github.io/helm
     icon: https://www.python.org/static/img/python-logo-large.c36dccadd999.png?1576869008
     keywords:
@@ -131,4 +131,4 @@ entries:
     urls:
     - https://shellclear.github.io/helm/helm-packages/python-hello-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-06T22:05:31.126068217+01:00"
+generated: "2022-02-06T22:16:38.699796711+01:00"
