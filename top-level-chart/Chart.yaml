@@ -16,7 +16,7 @@ maintainers:
     email: alopezme@redhat.com
 dependencies:
   - name: java-hello-world
-    repository: "https://shellclear.github.io/helm"
+    repository:  "https://shellclear.github.io/helm"
     version: 0.1.0
     alias: java-hello-world
     condition: java-hello-world.enabled

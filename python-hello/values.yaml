@@ -13,9 +13,9 @@ replicaCount: 1
 # ref: https://quay.io/shellclear/python-hello #
 ################################################
 image:
-  registry: "quay.io/shellclear"
-  repository: "python-hello"
-  tag: "1.0"
+  registry: quay.io/shellclear
+  repository: python-hello
+  id: sha256:ab09b8b90ef3078dc4b0b58e3da0037ca791a3179a97771098c724e7a7a88058
 
 ##################################################################################
 # Labels                                                                         #
