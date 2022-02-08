@@ -12,6 +12,7 @@ echo "Package and deploy: $JAVA_CHART_NAME and $PYTHON_CHART_NAME packages"
 
 echo -e "\n[1/6] Checkout to $MASTER_BRANCH branch and run <git pull>"
 git checkout $MASTER_BRANCH
+git push --set-upstream origin $MASTER_BRANCH
 git pull
 
 echo -e "\n[2/6] Creating $JAVA_CHART_NAME and $PYTHON_CHART_NAME packages"
