@@ -23,20 +23,20 @@ dependencies:
   - name: python-hello
     repository: "https://shellclear.github.io/helm"
     version: 0.1.0
-    alias: python-hello
-    condition: python-hello.enabled
-  # - name: python-hello
-  #   repository: "https://shellclear.github.io/helm"
-  #   version: 0.1.0
-  #   alias: python-hello2
-  #   condition: python-hello2.enabled
-  # - name: python-hello
-  #   repository: "https://shellclear.github.io/helm"
-  #   version: 0.1.0
-  #   alias: python-hello3
-  #   condition: python-hello3.enabled
-  # - name: infinispan
-  #   repository: "https://shellclear.github.io/helm"
-  #   version: 0.2.2
-  #   alias: infinispan
-  #   condition: infinispan.enabled
+    alias: python-hello-01
+    condition: python-hello-01.enabled
+  - name: python-hello
+    repository: "https://shellclear.github.io/helm"
+    version: 0.1.0
+    alias: python-hello-02
+    condition: python-hello-02.enabled
+  - name: python-hello
+    repository: "https://shellclear.github.io/helm"
+    version: 0.1.0
+    alias: python-hello-03
+    condition: python-hello-03.enabled
+  - name: infinispan
+    repository: "https://shellclear.github.io/helm"
+    version: 0.2.2
+    alias: infinispan
+    condition: infinispan.enabled

@@ -8,9 +8,9 @@ java-hello-world:
     - name: "APP_VERSION"
       value: "2.0.0"
 
-python-hello:
+python-hello-01:
   enabled: true
-  name: python-hello
+  name: python-hello-01
   replicaCount: 2
   # image:
   #   id: sha256:ab09b8b90ef3078dc4b0b58e3da0037ca791a3179a97771098c724e7a7a88058
@@ -18,9 +18,9 @@ python-hello:
   - name: "APP_VERSION"
     value: "1.0.0"
 
-python-hello2:
+python-hello-02:
   enabled: true
-  name: python-hello2
+  name: python-hello-02
   replicaCount: 2
   # image:
   #   id: sha256:ab09b8b90ef3078dc4b0b58e3da0037ca791a3179a97771098c724e7a7a88058
@@ -28,9 +28,9 @@ python-hello2:
   - name: "APP_VERSION"
     value: "2.0.0"
 
-python-hello3:
+python-hello-03:
   enabled: true
-  name: python-hello
+  name: python-hello-03
   replicaCount: 2
   # image:
   #   id: sha256:ab09b8b90ef3078dc4b0b58e3da0037ca791a3179a97771098c724e7a7a88058
@@ -38,9 +38,9 @@ python-hello3:
   - name: "APP_VERSION"
     value: "3.0.0"
 
-# infinispan:
-#   enabled: true
-#   deploy:
-#     nameOverride: "infinispan-server"
-#     replicas: 1
+infinispan:
+  enabled: true
+  deploy:
+    nameOverride: "infinispan-server"
+    replicas: 1
   
