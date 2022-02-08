@@ -3,7 +3,7 @@ entries:
   infinispan:
   - apiVersion: v2
     appVersion: "13.0"
-    created: "2022-02-08T22:40:11.234191737+01:00"
+    created: "2022-02-08T22:41:12.239738342+01:00"
     description: A Helm chart that lets you build and deploy Infinispan clusters.
     digest: 3e7b051b9918a02d2d25000f17202324a97ddc366304ceb1829f87f811549e01
     home: https://infinispan.org/
@@ -21,7 +21,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: "13.0"
-    created: "2022-02-08T22:40:11.233176402+01:00"
+    created: "2022-02-08T22:41:12.237921683+01:00"
     description: A Helm chart that lets you build and deploy Infinispan clusters.
     digest: c94f869d4c6d4d94bffc9d672577249e50cf3a3e306f0d6862178995f0ae0088
     home: https://infinispan.org/
@@ -90,10 +90,10 @@ entries:
   java-hello-world:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-02-08T22:40:11.234657879+01:00"
+    created: "2022-02-08T22:41:12.240670411+01:00"
     description: A Helm chart to deploy a Java hello-world application using Spring
       Boot.
-    digest: 36d9ec2adc9eae2ae3e3ad59a6b332ef7123ba3a12d0773cc8be18ea42bfb13c
+    digest: 335c1b38223eb35200191dc6ab9de7f07e745e9520c6ac7670cdbe5fb2bcbfeb
     home: https://shellclear.github.io/helm
     icon: https://spring.io/images/spring-initializr-4291cc0115eb104348717b82161a81de.svg
     keywords:
@@ -113,9 +113,9 @@ entries:
   python-hello:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-02-08T22:40:11.235706835+01:00"
+    created: "2022-02-08T22:41:12.242289835+01:00"
     description: A Helm chart to deploy a Python hello-world application.
-    digest: 7696662cfbe851f933a4b309a28c947f519e6588e4a9d0f3af9770436a6e6646
+    digest: 7b69abeca21268245bb80b4a176334609c853e08b409bbe605eaa3b8ad4339da
     home: https://shellclear.github.io/helm
     icon: https://www.python.org/static/img/python-logo-large.c36dccadd999.png?1576869008
     keywords:
@@ -133,7 +133,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-02-08T22:40:11.235246091+01:00"
+    created: "2022-02-08T22:41:12.241498963+01:00"
     description: A Helm chart to deploy a Python hello-world application.
     digest: 96eca59b22ffbc6c98a5be3e250a16e57b0926608250e968fbdefaf5c657db1a
     home: https://shellclear.github.io/helm
@@ -151,4 +151,4 @@ entries:
     urls:
     - https://shellclear.github.io/helm/helm-packages/python-hello-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-08T22:40:11.232145028+01:00"
+generated: "2022-02-08T22:41:12.23605423+01:00"
