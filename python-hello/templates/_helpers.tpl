@@ -19,7 +19,6 @@ Helm Labels
 generator: "helm"
 helm.sh/chart: {{ include "python-hello.chart" . }}
 helm.sh/release: "{{ .Release.Name }}"
-helm.sh/date: "{{ now | date "2006.01.02-15.04.05" }}"
 app.kubernetes.io/name: {{ include "python-hello.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- if .Chart.AppVersion }}
