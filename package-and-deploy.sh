@@ -4,9 +4,9 @@ set -e
 
 JAVA_CHART_NAME="java-hello-world"
 PYTHON_CHART_NAME="python-hello"
-PACKAGE="${CHART_NAME}-0.1.0.tgz"
-MASTER_BRANCH="refactor/define-chart-image-by-hash"
+MASTER_BRANCH=$(git branch --show-current)
 PKGS_BRANCH="gh-pages"
+SRC_DIR="$PWD"
 
 echo "Package and deploy: $JAVA_CHART_NAME and $PYTHON_CHART_NAME packages"
 
@@ -22,7 +22,7 @@ echo -e "\n[3/6] Running <git stash> command at $MASTER_BRANCH, checkout to $PKG
 git stash
 git checkout $PKGS_BRANCH
 git pull
-cp -f /tmp/${JAVA_CHART_NAME}-0.1.0.tgz /tmp/${PYTHON_CHART_NAME}-0.1.0.tgz helm-packages/
+cp -f /tmp/${JAVA_CHART_NAME}-*.tgz /tmp/${PYTHON_CHART_NAME}-*.tgz helm-packages/
 
 echo -e "\n[5/6] Update Helm Index using --merge parameter"
 helm repo index --merge index.yaml --url https://shellclear.github.io/helm/ .
@@ -34,5 +34,5 @@ git push
 
 echo -e "\n[END] Checkout to $MASTER_BRANCH branch and return to previous state"
 git checkout $MASTER_BRANCH
-cd -
+cd ${SRC_DIR}
 git stash pop
