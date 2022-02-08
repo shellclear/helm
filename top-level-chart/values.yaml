@@ -16,11 +16,31 @@ python-hello:
   #   id: sha256:ab09b8b90ef3078dc4b0b58e3da0037ca791a3179a97771098c724e7a7a88058
   envs:
   - name: "APP_VERSION"
+    value: "1.0.0"
+
+python-hello2:
+  enabled: true
+  name: python-hello2
+  replicaCount: 2
+  # image:
+  #   id: sha256:ab09b8b90ef3078dc4b0b58e3da0037ca791a3179a97771098c724e7a7a88058
+  envs:
+  - name: "APP_VERSION"
     value: "2.0.0"
 
-infinispan:
+python-hello3:
   enabled: true
-  deploy:
-    nameOverride: "infinispan-server"
-    replicas: 4
+  name: python-hello
+  replicaCount: 2
+  # image:
+  #   id: sha256:ab09b8b90ef3078dc4b0b58e3da0037ca791a3179a97771098c724e7a7a88058
+  envs:
+  - name: "APP_VERSION"
+    value: "3.0.0"
+
+# infinispan:
+#   enabled: true
+#   deploy:
+#     nameOverride: "infinispan-server"
+#     replicas: 1
   

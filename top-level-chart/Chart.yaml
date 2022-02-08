@@ -25,12 +25,18 @@ dependencies:
     version: 0.1.0
     alias: python-hello
     condition: python-hello.enabled
+  # - name: python-hello
+  #   repository: "https://shellclear.github.io/helm"
+  #   version: 0.1.0
+  #   alias: python-hello2
+  #   condition: python-hello2.enabled
+  # - name: python-hello
+  #   repository: "https://shellclear.github.io/helm"
+  #   version: 0.1.0
+  #   alias: python-hello3
+  #   condition: python-hello3.enabled
   # - name: infinispan
-  #   repository: "https://charts.openshift.io"
-  #   version: 0.2.1
+  #   repository: "https://shellclear.github.io/helm"
+  #   version: 0.2.2
   #   alias: infinispan
-  - name: infinispan
-    repository: "https://shellclear.github.io/helm"
-    version: 0.2.2
-    alias: infinispan
-    condition: infinispan.enabled
+  #   condition: infinispan.enabled
