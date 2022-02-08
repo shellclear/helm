@@ -19,7 +19,6 @@ Helm Labels
 generator: "helm"
 helm.sh/chart: {{ include "java-hello-world.chart" . }}
 helm.sh/release: "{{ .Release.Name }}"
-helm.sh/date: "{{ now | date "2006.01.02-15.04.05" }}"
 app.kubernetes.io/name: {{ include "java-hello-world.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- if .Chart.AppVersion }}
