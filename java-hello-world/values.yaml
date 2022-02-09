@@ -13,9 +13,9 @@ replicaCount: 1
 # ref: https://quay.io/repository/shellclear/java-hello-world  #
 ################################################################
 image:
-  registry: "quay.io/shellclear"
-  repository: "java-hello-world"
-  tag: "1.0"
+  registry: quay.io/shellclear
+  repository: java-hello-world
+  id: sha256:4a7cd169339bfc76d310d79ac64408faf7072e08ad275fe26ae6c0b740c464ca
 
 ##################################################################################
 # Labels                                                                         #
